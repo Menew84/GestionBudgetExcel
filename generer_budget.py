@@ -5,7 +5,7 @@ from openpyxl.chart import BarChart, Reference
 from openpyxl.chart.label import DataLabelList
 
 def creer_fichier_budget(nom_fichier="Budget_Personnel.xlsx"):
-    annee = "2025"
+    annee = "2026"
     mois_fr = [
         "Janvier", "Février", "Mars", "Avril", "Mai", "Juin",
         "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"
@@ -254,3 +254,4 @@ def creer_fichier_budget(nom_fichier="Budget_Personnel.xlsx"):
 
 if __name__ == "__main__":
     creer_fichier_budget("Budget_Personnel.xlsx")
+
