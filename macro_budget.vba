@@ -8,7 +8,7 @@ Sub AjouterCheckboxRevenus()
     Dim i As Long
     Dim chk As OLEObject
     
-    For i = 6 To 55
+    For i = 6 To 106
         ' Supprimer la case existante si elle existe déjà
         On Error Resume Next
         ws.OLEObjects("ChkRev" & i).Delete
@@ -31,7 +31,7 @@ Sub AjouterCheckboxDepenses()
     Dim i As Long
     Dim chk As OLEObject
     
-    For i = 6 To 55
+    For i = 6 To 106
         ' Supprimer la case existante si elle existe déjà
         On Error Resume Next
         ws.OLEObjects("ChkDep" & i).Delete
