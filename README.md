@@ -38,7 +38,7 @@ Ce projet vous permet de générer automatiquement un tableau Excel pour gérer 
      - Des **cellules de synthèse** (ligne 60 : C60, D60, E60) reprennent respectivement le Total Revenus, le Total Dépenses et le Solde Mensuel. Cette ligne est masquée et sert à alimenter la Page de Garde.
 
    La **Page de Garde** comprend :  
-   - Un **titre** en A1:D1 indiquant "BUDGET PERSONNEL 2025 - Récapitulatif Annuel".  
+   - Un **titre** en A1:D1 indiquant "BUDGET PERSONNEL 2026 - Récapitulatif Annuel".  
    - Un **tableau récapitulatif** (lignes 4 à 15) listant pour chaque mois (ex. "Janvier 2026", "Février 2026", etc.) :  
      - **Total Revenus** (colonne B) – récupéré depuis la cellule de synthèse C60 de la feuille du mois.  
      - **Total Dépenses** (colonne C) – récupéré depuis la cellule de synthèse D60 de la feuille du mois.  
