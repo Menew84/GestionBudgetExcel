@@ -32,14 +32,14 @@ Ce projet vous permet de générer automatiquement un tableau Excel pour gérer 
          *Les montants sont saisis en positif, mais affichés avec un signe “–” devant et en rouge grâce à un format personnalisé.*  
        - **I** : "Payé ?" – (destinée à recevoir des cases à cocher via macros VBA)  
      - **Totaux et Solde Mensuel** calculés en haut :  
-       - **Total Revenus** en cellule **C3** (somme des montants de la zone Revenus, lignes 6 à 55).  
+       - **Total Revenus** en cellule **C3** (somme des montants de la zone Revenus, lignes 6 à 106).  
        - **Total Dépenses** en cellule **H3** (somme des montants de la zone Dépenses, affiché avec un “–” grâce au format personnalisé).  
        - **Solde Mensuel** en cellule **C4** = *Solde Initial + Total Revenus – Total Dépenses*.  
      - Des **cellules de synthèse** (ligne 60 : C60, D60, E60) reprennent respectivement le Total Revenus, le Total Dépenses et le Solde Mensuel. Cette ligne est masquée et sert à alimenter la Page de Garde.
 
    La **Page de Garde** comprend :  
    - Un **titre** en A1:D1 indiquant "BUDGET PERSONNEL 2025 - Récapitulatif Annuel".  
-   - Un **tableau récapitulatif** (lignes 4 à 15) listant pour chaque mois (ex. "Janvier 2025", "Février 2025", etc.) :  
+   - Un **tableau récapitulatif** (lignes 4 à 15) listant pour chaque mois (ex. "Janvier 2026", "Février 2026", etc.) :  
      - **Total Revenus** (colonne B) – récupéré depuis la cellule de synthèse C60 de la feuille du mois.  
      - **Total Dépenses** (colonne C) – récupéré depuis la cellule de synthèse D60 de la feuille du mois.  
      - **Solde** (colonne D) – récupéré depuis la cellule de synthèse E60 de la feuille du mois.  
